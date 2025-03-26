@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ban Thai - タイ雑貨専門店</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #f4a261; padding: 20px; text-align: center; color: white; font-size: 24px; }
+        nav { background: #2a9d8f; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 18px; }
+        section { padding: 20px; text-align: center; }
+        .products { display: flex; flex-wrap: wrap; justify-content: center; }
+        .product { margin: 15px; padding: 10px; border: 1px solid #ddd; width: 250px; }
+        footer { background: #264653; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>Ban Thai - タイ雑貨専門店</header>
+    <nav>
+        <a href="#about">会社概要</a>
+        <a href="#products">商品一覧</a>
+        <a href="#contact">お問い合わせ</a>
+    </nav>
+    <section id="about">
+        <h2>会社概要</h2>
+        <p>タイの伝統工芸品を中心に、心温まる雑貨をお届けします。</p>
+    </section>
+    <section id="products">
+        <h2>商品一覧</h2>
+        <div class="products">
+            <div class="product">
+                <img src="product1.jpg" alt="商品1" width="200">
+                <p>タイの手作り置物</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="商品2" width="200">
+                <p>伝統的なタイパンツ</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <p>Email: contact@banthai.com</p>
+    </section>
+    <footer>
+        &copy; 2025 Ban Thai. All rights reserved.
+    </footer>
+</body>
+</html>
